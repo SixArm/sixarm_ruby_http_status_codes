@@ -1,0 +1,21 @@
+= SixArm.com » Ruby » HTTP Status Codes
+
+Author:: Joel Parker Henderson, joel@joelparkerhenderson.com
+Copyright:: Copyright (c) 2006-2011 Joel Parker Henderson
+License:: See LICENSE.txt file
+
+HTTP status codes as nicknames.
+
+Example:
+  Net::HTTP::Status::OK => 200
+  Net::HTTP::Status::NOT_FOUND => 404
+
+Why use these instead of just using a number? Because we prefer using nicknames that are easy.
+
+Why use these instead of the codes that already exist in other libraries, like Ruby Net::HTTP, Rack Utils, and Rails ActionPack? Because we want WebDAV codes (e.g. 403 means a resource is locked) and informal convention codes (e.g. 599 means a network connect timeout).
+
+To see similar codes:
+
+  * Ruby Net HTTP library
+  * Rack Utils
+  * Rails ActionPack

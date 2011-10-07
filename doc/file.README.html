@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>
+  File: README
+  
+    &mdash; Documentation by YARD 0.7.2
+  
+</title>
+
+  <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" charset="utf-8" />
+
+  <link rel="stylesheet" href="css/common.css" type="text/css" media="screen" charset="utf-8" />
+
+<script type="text/javascript" charset="utf-8">
+  relpath = '';
+  if (relpath != '') relpath += '/';
+</script>
+
+  <script type="text/javascript" charset="utf-8" src="js/jquery.js"></script>
+
+  <script type="text/javascript" charset="utf-8" src="js/app.js"></script>
+
+
+  </head>
+  <body>
+    <script type="text/javascript" charset="utf-8">
+      if (window.top.frames.main) document.body.className = 'frames';
+    </script>
+    
+    <div id="header">
+      <div id="menu">
+  
+    <a href="_index.html" title="Index">Index</a> &raquo; 
+    <span class="title">File: README</span>
+  
+  
+  <div class="noframes"><span class="title">(</span><a href="." target="_top">no frames</a><span class="title">)</span></div>
+</div>
+
+      <div id="search">
+  
+    <a id="class_list_link" href="#">Class List</a>
+  
+    <a id="method_list_link" href="#">Method List</a>
+  
+    <a id="file_list_link" href="#">File List</a>
+  
+</div>
+      <div class="clear"></div>
+    </div>
+    
+    <iframe id="search_frame"></iframe>
+    
+    <div id="content"><div id='filecontents'><h1>SixArm.com » Ruby » HTTP Status Codes</h1>
+<table>
+<tr><td valign="top">Author</td><td><p>
+Joel Parker Henderson, joelparkerhenderson@gmail.com
+</p>
+</td></tr>
+<tr><td valign="top">Copyright</td><td><p>
+Copyright &#169; 2006-2011 Joel Parker Henderson
+</p>
+</td></tr>
+<tr><td valign="top">License</td><td><p>
+See LICENSE.txt file
+</p>
+</td></tr>
+</table>
+<p>
+HTTP status codes as constants with the code number and short explanation.
+</p>
+<p>
+Example:
+</p>
+<pre class="code">
+  Net::HTTP::200_ok =&gt; 200
+  Net::HTTP::404_not_found =&gt; 404
+</pre>
+<p>
+Why use these instead of just using a number? Because we prefer using a
+constant with an easy-to-read explanation.
+</p>
+<p>
+Why use these instead of the codes that already exist in other libraries,
+like Ruby Net::HTTP, Rack Utils, and Rails ActionPack? Because we want
+WebDAV codes (e.g. 403 means a resource is locked) and informal convention
+codes (e.g. 599 means a network connect timeout).
+</p>
+<p>
+To see similar codes:
+</p>
+<pre class="code">
+  * Ruby Net HTTP library
+  * Rack Utils
+  * Rails ActionPack</pre>
+</div></div>
+    
+    <div id="footer">
+  Generated on Thu Oct  6 19:50:35 2011 by 
+  <a href="http://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
+  0.7.2 (ruby-1.9.2).
+</div>
+
+  </body>
+</html>
