@@ -2,7 +2,7 @@ Gem::Specification.new do |s|
 
   s.name              = "sixarm_ruby_http_status_codes"
   s.summary           = "SixArm.com » Ruby » HTTP Status Codes"
-  s.version           = "1.0.2"
+  s.version           = "1.0.3"
   s.author            = "SixArm"
   s.email             = "sixarm@sixarm.com"
   s.homepage          = "http://sixarm.com/"
