@@ -10,6 +10,12 @@
 
 HTTP status codes as nicknames.
 
+Examples:
+
+    Net::HTTP::Status::OK  #=> 200
+    Net::HTTP::Status::NOT_FOUND  #=> 404
+
+
 For docs go to <http://sixarm.com/sixarm_ruby_http_status_codes/doc>
 
 Want to help? We're happy to get pull requests.
@@ -23,7 +29,7 @@ Install:
 
 Bundler:
 
-    gem "sixarm_ruby_http_status_codes", "~>1.0.3"
+    gem "sixarm_ruby_http_status_codes", "~>1.1.0"
 
 Require:
 
@@ -41,13 +47,6 @@ To enable high security for all our gems:
 To install with high security:
 
     gem install sixarm_ruby_http_status_codes --test --trust-policy HighSecurity
-
-
-## Examples
-
-    require "sixarm_ruby_http_status_codes"
-    Net::HTTP::Status::OK => 200
-    Net::HTTP::Status::NOT_FOUND => 404
 
 
 ## Why?
@@ -68,7 +67,7 @@ To see similar codes:
 
 ## Changes
 
-* 2012-03-14 1.0.3 Update docs, tests
+* 2012-03-24 1.1.0 Upgrade for Ruby 1.9.3, minitest/spec, and improved docs.
 * 2011-10-22 1.0.3 Add IETF draft-nottingham-http-new-status-02
 * 2011-10-06 1.0.2 Publish
 

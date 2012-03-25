@@ -10,7 +10,7 @@ module Net
       SWITCHING_PROTOCOLS = 101
       PROCESSING = 102  # WebDAV (RFC 2518)
       CHECKPOINT = 103
-      REQUEST_URI_TOO_LONG = 122
+      REQUEST_URI_TOO_LONG_NONSTANDARD_MSIE_ONLY = 122
       OK = 200
       CREATED = 201
       ACCEPTED = 202
@@ -55,7 +55,7 @@ module Net
       UPGRADE_REQUIRED = 426  # RFC 2817
       PRECONDITION_REQUIRED = 428  # IETF draft-nottingham-http-new-status-02
       TOO_MANY_REQUESTS = 429  # IETF draft-nottingham-http-new-status-02
-      REQUEST HEADER FIELDS TOO LARGE = 439  # IETF draft-nottingham-http-new-status-02
+      REQUEST_HEADER_FIELDS_TOO_LARGE = 439  # IETF draft-nottingham-http-new-status-02
       NO_RESPONSE = 444
       RETRY_WITH = 449
       BLOCKED_BY_PARENTAL_CONTROLS = 450
@@ -70,7 +70,7 @@ module Net
       INSUFFICIENT_STORAGE = 507  # WebDAV (RFC 4918)
       BANDWIDTH_LIMIT_EXCEEDED = 509  # Apace Limited Extension
       NOT_EXTENDED = 510  # RFC 2774
-      NETWORK AUTHENTICATION REQUIRED = 511  # IETF draft-nottingham-http-new-status-02
+      NETWORK_AUTHENTICATION_REQUIRED = 511  # IETF draft-nottingham-http-new-status-02
       NETWORK_READ_TIMEOUT = 598  # Informal convention
       NETWORK_CONNECT_TIMEOUT = 599  # Informal convention
     end

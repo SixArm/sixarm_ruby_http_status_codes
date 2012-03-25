@@ -1,1 +1,0 @@
-2e2f419c1e7ec543798e81e94c5a6a1bd01b15c744b1fc57372f4ff6892b3aa59d7d0b5ccfa66e7211e6ab35f3f3690e0995ac4b1a8c94e285bfed4894be26c6  sixarm_ruby_http_status_codes-1.0.3.gem

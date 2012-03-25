@@ -1,0 +1,656 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>
+  Module: Net::HTTP::Status
+  
+    &mdash; Documentation by YARD 0.7.5
+  
+</title>
+
+  <link rel="stylesheet" href="../../css/style.css" type="text/css" media="screen" charset="utf-8" />
+
+  <link rel="stylesheet" href="../../css/common.css" type="text/css" media="screen" charset="utf-8" />
+
+<script type="text/javascript" charset="utf-8">
+  relpath = '../..';
+  if (relpath != '') relpath += '/';
+</script>
+
+  <script type="text/javascript" charset="utf-8" src="../../js/jquery.js"></script>
+
+  <script type="text/javascript" charset="utf-8" src="../../js/app.js"></script>
+
+
+  </head>
+  <body>
+    <script type="text/javascript" charset="utf-8">
+      if (window.top.frames.main) document.body.className = 'frames';
+    </script>
+    
+    <div id="header">
+      <div id="menu">
+  
+    <a href="../../_index.html">Index (S)</a> &raquo; 
+    <span class='title'><span class='object_link'><a href="../../Net.html" title="Net (module)">Net</a></span></span> &raquo; <span class='title'><span class='object_link'><a href="../HTTP.html" title="Net::HTTP (module)">HTTP</a></span></span>
+     &raquo; 
+    <span class="title">Status</span>
+  
+  
+  <div class="noframes"><span class="title">(</span><a href="." target="_top">no frames</a><span class="title">)</span></div>
+</div>
+
+      <div id="search">
+  
+    <a id="class_list_link" href="#">Class List</a>
+  
+    <a id="method_list_link" href="#">Method List</a>
+  
+    <a id="file_list_link" href="#">File List</a>
+  
+</div>
+      <div class="clear"></div>
+    </div>
+    
+    <iframe id="search_frame"></iframe>
+    
+    <div id="content"><h1>Module: Net::HTTP::Status
+  
+  
+  
+</h1>
+
+<dl class="box">
+  
+  
+    
+  
+    
+  
+  
+  
+    <dt class="r1 last">Defined in:</dt>
+    <dd class="r1 last">lib/sixarm_ruby_http_status_codes.rb</dd>
+  
+</dl>
+<div class="clear"></div>
+
+
+  <h2>Constant Summary</h2>
+  
+    <dl class="constants">
+      
+        <dt id="CONTINUE-constant" class="">CONTINUE =
+          
+        </dt>
+        <dd><pre class="code"><span class='int'>100</span></pre></dd>
+      
+        <dt id="SWITCHING_PROTOCOLS-constant" class="">SWITCHING_PROTOCOLS =
+          
+        </dt>
+        <dd><pre class="code"><span class='int'>101</span></pre></dd>
+      
+        <dt id="PROCESSING-constant" class="">PROCESSING =
+          <div class="docstring">
+  <div class="discussion">
+    
+<p>WebDAV (RFC 2518)</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div>
+        </dt>
+        <dd><pre class="code"><span class='int'>102</span></pre></dd>
+      
+        <dt id="CHECKPOINT-constant" class="">CHECKPOINT =
+          
+        </dt>
+        <dd><pre class="code"><span class='int'>103</span></pre></dd>
+      
+        <dt id="REQUEST_URI_TOO_LONG-constant" class="">REQUEST_URI_TOO_LONG =
+          
+        </dt>
+        <dd><pre class="code"><span class='int'>414</span></pre></dd>
+      
+        <dt id="OK-constant" class="">OK =
+          
+        </dt>
+        <dd><pre class="code"><span class='int'>200</span></pre></dd>
+      
+        <dt id="CREATED-constant" class="">CREATED =
+          
+        </dt>
+        <dd><pre class="code"><span class='int'>201</span></pre></dd>
+      
+        <dt id="ACCEPTED-constant" class="">ACCEPTED =
+          
+        </dt>
+        <dd><pre class="code"><span class='int'>202</span></pre></dd>
+      
+        <dt id="NON_AUTHORITATIVE_INFORMATION-constant" class="">NON_AUTHORITATIVE_INFORMATION =
+          <div class="docstring">
+  <div class="discussion">
+    
+<p>Since HTTP/1.1</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div>
+        </dt>
+        <dd><pre class="code"><span class='int'>203</span></pre></dd>
+      
+        <dt id="NO_CONTENT-constant" class="">NO_CONTENT =
+          
+        </dt>
+        <dd><pre class="code"><span class='int'>204</span></pre></dd>
+      
+        <dt id="RESET_CONTENT-constant" class="">RESET_CONTENT =
+          
+        </dt>
+        <dd><pre class="code"><span class='int'>205</span></pre></dd>
+      
+        <dt id="PARTIAL_CONTENT-constant" class="">PARTIAL_CONTENT =
+          
+        </dt>
+        <dd><pre class="code"><span class='int'>206</span></pre></dd>
+      
+        <dt id="MULTI_STATUS-constant" class="">MULTI_STATUS =
+          <div class="docstring">
+  <div class="discussion">
+    
+<p>WebDAV (RFC 4918)</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div>
+        </dt>
+        <dd><pre class="code"><span class='int'>207</span></pre></dd>
+      
+        <dt id="IM_USED-constant" class="">IM_USED =
+          <div class="docstring">
+  <div class="discussion">
+    
+<p>RFC 3229</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div>
+        </dt>
+        <dd><pre class="code"><span class='int'>226</span></pre></dd>
+      
+        <dt id="MULTIPLE_CHOICES-constant" class="">MULTIPLE_CHOICES =
+          
+        </dt>
+        <dd><pre class="code"><span class='int'>300</span></pre></dd>
+      
+        <dt id="MOVED_PERMANENTLY-constant" class="">MOVED_PERMANENTLY =
+          
+        </dt>
+        <dd><pre class="code"><span class='int'>301</span></pre></dd>
+      
+        <dt id="FOUND-constant" class="">FOUND =
+          
+        </dt>
+        <dd><pre class="code"><span class='int'>302</span></pre></dd>
+      
+        <dt id="SEE_OTHER-constant" class="">SEE_OTHER =
+          <div class="docstring">
+  <div class="discussion">
+    
+<p>Since HTTP/1.1</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div>
+        </dt>
+        <dd><pre class="code"><span class='int'>303</span></pre></dd>
+      
+        <dt id="NOT_MODIFIED-constant" class="">NOT_MODIFIED =
+          
+        </dt>
+        <dd><pre class="code"><span class='int'>304</span></pre></dd>
+      
+        <dt id="USE_PROXY-constant" class="">USE_PROXY =
+          <div class="docstring">
+  <div class="discussion">
+    
+<p>Since HTTP/1.1</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div>
+        </dt>
+        <dd><pre class="code"><span class='int'>305</span></pre></dd>
+      
+        <dt id="SWITCH_PROXY-constant" class="">SWITCH_PROXY =
+          
+        </dt>
+        <dd><pre class="code"><span class='int'>306</span></pre></dd>
+      
+        <dt id="TEMPORARY_REDIRECT-constant" class="">TEMPORARY_REDIRECT =
+          <div class="docstring">
+  <div class="discussion">
+    
+<p>Since HTTP/1.1</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div>
+        </dt>
+        <dd><pre class="code"><span class='int'>307</span></pre></dd>
+      
+        <dt id="RESUME_INCOMPLETE-constant" class="">RESUME_INCOMPLETE =
+          
+        </dt>
+        <dd><pre class="code"><span class='int'>308</span></pre></dd>
+      
+        <dt id="BAD_REQUEST-constant" class="">BAD_REQUEST =
+          
+        </dt>
+        <dd><pre class="code"><span class='int'>400</span></pre></dd>
+      
+        <dt id="UNAUTHORIZED-constant" class="">UNAUTHORIZED =
+          
+        </dt>
+        <dd><pre class="code"><span class='int'>401</span></pre></dd>
+      
+        <dt id="PAYMENT_REQUIRED-constant" class="">PAYMENT_REQUIRED =
+          
+        </dt>
+        <dd><pre class="code"><span class='int'>402</span></pre></dd>
+      
+        <dt id="FORBIDDEN-constant" class="">FORBIDDEN =
+          
+        </dt>
+        <dd><pre class="code"><span class='int'>403</span></pre></dd>
+      
+        <dt id="NOT_FOUND-constant" class="">NOT_FOUND =
+          
+        </dt>
+        <dd><pre class="code"><span class='int'>404</span></pre></dd>
+      
+        <dt id="METHOD_NOT_ALLOWED-constant" class="">METHOD_NOT_ALLOWED =
+          
+        </dt>
+        <dd><pre class="code"><span class='int'>405</span></pre></dd>
+      
+        <dt id="NOT_ACCEPTABLE-constant" class="">NOT_ACCEPTABLE =
+          
+        </dt>
+        <dd><pre class="code"><span class='int'>406</span></pre></dd>
+      
+        <dt id="PROXY_AUTHENTICATION_REQUIRED-constant" class="">PROXY_AUTHENTICATION_REQUIRED =
+          
+        </dt>
+        <dd><pre class="code"><span class='int'>407</span></pre></dd>
+      
+        <dt id="REQUEST_TIMEOUT-constant" class="">REQUEST_TIMEOUT =
+          
+        </dt>
+        <dd><pre class="code"><span class='int'>408</span></pre></dd>
+      
+        <dt id="CONFLICT-constant" class="">CONFLICT =
+          
+        </dt>
+        <dd><pre class="code"><span class='int'>409</span></pre></dd>
+      
+        <dt id="GONE-constant" class="">GONE =
+          
+        </dt>
+        <dd><pre class="code"><span class='int'>410</span></pre></dd>
+      
+        <dt id="LENGTH_REQUIRED-constant" class="">LENGTH_REQUIRED =
+          
+        </dt>
+        <dd><pre class="code"><span class='int'>411</span></pre></dd>
+      
+        <dt id="PRECONDITION_FAILED-constant" class="">PRECONDITION_FAILED =
+          
+        </dt>
+        <dd><pre class="code"><span class='int'>412</span></pre></dd>
+      
+        <dt id="REQUEST_ENTITY_TOO_LARGE-constant" class="">REQUEST_ENTITY_TOO_LARGE =
+          
+        </dt>
+        <dd><pre class="code"><span class='int'>413</span></pre></dd>
+      
+        <dt id="UNSUPPORTED_MEDIA_TYPE-constant" class="">UNSUPPORTED_MEDIA_TYPE =
+          
+        </dt>
+        <dd><pre class="code"><span class='int'>415</span></pre></dd>
+      
+        <dt id="REQUESTED_RANGE_NOT_SATISFIABLE-constant" class="">REQUESTED_RANGE_NOT_SATISFIABLE =
+          
+        </dt>
+        <dd><pre class="code"><span class='int'>416</span></pre></dd>
+      
+        <dt id="EXPECTATION_FAILED-constant" class="">EXPECTATION_FAILED =
+          
+        </dt>
+        <dd><pre class="code"><span class='int'>417</span></pre></dd>
+      
+        <dt id="IM_A_TEAPOT-constant" class="">IM_A_TEAPOT =
+          <div class="docstring">
+  <div class="discussion">
+    
+<p>RFC 2324</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div>
+        </dt>
+        <dd><pre class="code"><span class='int'>418</span></pre></dd>
+      
+        <dt id="UNPROCESSABLE_ENTITY-constant" class="">UNPROCESSABLE_ENTITY =
+          <div class="docstring">
+  <div class="discussion">
+    
+<p>WebDAV (RFC 4918)</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div>
+        </dt>
+        <dd><pre class="code"><span class='int'>422</span></pre></dd>
+      
+        <dt id="LOCKED-constant" class="">LOCKED =
+          <div class="docstring">
+  <div class="discussion">
+    
+<p>WebDAV (RFC 4918)</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div>
+        </dt>
+        <dd><pre class="code"><span class='int'>423</span></pre></dd>
+      
+        <dt id="FAILED_DEPENDENCY-constant" class="">FAILED_DEPENDENCY =
+          <div class="docstring">
+  <div class="discussion">
+    
+<p>WebDAV (RFC 4918)</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div>
+        </dt>
+        <dd><pre class="code"><span class='int'>424</span></pre></dd>
+      
+        <dt id="UNORDERED_COLLECTION-constant" class="">UNORDERED_COLLECTION =
+          <div class="docstring">
+  <div class="discussion">
+    
+<p>RFC 3648</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div>
+        </dt>
+        <dd><pre class="code"><span class='int'>425</span></pre></dd>
+      
+        <dt id="UPGRADE_REQUIRED-constant" class="">UPGRADE_REQUIRED =
+          <div class="docstring">
+  <div class="discussion">
+    
+<p>RFC 2817</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div>
+        </dt>
+        <dd><pre class="code"><span class='int'>426</span></pre></dd>
+      
+        <dt id="PRECONDITION_REQUIRED-constant" class="">PRECONDITION_REQUIRED =
+          <div class="docstring">
+  <div class="discussion">
+    
+<p>IETF draft-nottingham-http-new-status-02</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div>
+        </dt>
+        <dd><pre class="code"><span class='int'>428</span></pre></dd>
+      
+        <dt id="TOO_MANY_REQUESTS-constant" class="">TOO_MANY_REQUESTS =
+          <div class="docstring">
+  <div class="discussion">
+    
+<p>IETF draft-nottingham-http-new-status-02</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div>
+        </dt>
+        <dd><pre class="code"><span class='int'>429</span></pre></dd>
+      
+        <dt id="NO_RESPONSE-constant" class="">NO_RESPONSE =
+          
+        </dt>
+        <dd><pre class="code"><span class='int'>444</span></pre></dd>
+      
+        <dt id="RETRY_WITH-constant" class="">RETRY_WITH =
+          
+        </dt>
+        <dd><pre class="code"><span class='int'>449</span></pre></dd>
+      
+        <dt id="BLOCKED_BY_PARENTAL_CONTROLS-constant" class="">BLOCKED_BY_PARENTAL_CONTROLS =
+          
+        </dt>
+        <dd><pre class="code"><span class='int'>450</span></pre></dd>
+      
+        <dt id="CLIENT_CLOSED_REQUEST-constant" class="">CLIENT_CLOSED_REQUEST =
+          
+        </dt>
+        <dd><pre class="code"><span class='int'>499</span></pre></dd>
+      
+        <dt id="INTERNAL_SERVER_ERROR-constant" class="">INTERNAL_SERVER_ERROR =
+          
+        </dt>
+        <dd><pre class="code"><span class='int'>500</span></pre></dd>
+      
+        <dt id="NOT_IMPLEMENTED-constant" class="">NOT_IMPLEMENTED =
+          
+        </dt>
+        <dd><pre class="code"><span class='int'>501</span></pre></dd>
+      
+        <dt id="BAD_GATEWAY-constant" class="">BAD_GATEWAY =
+          
+        </dt>
+        <dd><pre class="code"><span class='int'>502</span></pre></dd>
+      
+        <dt id="SERVICE_UNAVAILABLE-constant" class="">SERVICE_UNAVAILABLE =
+          
+        </dt>
+        <dd><pre class="code"><span class='int'>503</span></pre></dd>
+      
+        <dt id="GATEWAY_TIMEOUT-constant" class="">GATEWAY_TIMEOUT =
+          
+        </dt>
+        <dd><pre class="code"><span class='int'>504</span></pre></dd>
+      
+        <dt id="HTTP_VERSION_NOT_SUPPORTED-constant" class="">HTTP_VERSION_NOT_SUPPORTED =
+          
+        </dt>
+        <dd><pre class="code"><span class='int'>505</span></pre></dd>
+      
+        <dt id="VARIANT_ALSO_NEGOTIATES-constant" class="">VARIANT_ALSO_NEGOTIATES =
+          <div class="docstring">
+  <div class="discussion">
+    
+<p>RFC 2295</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div>
+        </dt>
+        <dd><pre class="code"><span class='int'>506</span></pre></dd>
+      
+        <dt id="INSUFFICIENT_STORAGE-constant" class="">INSUFFICIENT_STORAGE =
+          <div class="docstring">
+  <div class="discussion">
+    
+<p>WebDAV (RFC 4918)</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div>
+        </dt>
+        <dd><pre class="code"><span class='int'>507</span></pre></dd>
+      
+        <dt id="BANDWIDTH_LIMIT_EXCEEDED-constant" class="">BANDWIDTH_LIMIT_EXCEEDED =
+          <div class="docstring">
+  <div class="discussion">
+    
+<p>Apace Limited Extension</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div>
+        </dt>
+        <dd><pre class="code"><span class='int'>509</span></pre></dd>
+      
+        <dt id="NOT_EXTENDED-constant" class="">NOT_EXTENDED =
+          <div class="docstring">
+  <div class="discussion">
+    
+<p>RFC 2774</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div>
+        </dt>
+        <dd><pre class="code"><span class='int'>510</span></pre></dd>
+      
+        <dt id="NETWORK_READ_TIMEOUT-constant" class="">NETWORK_READ_TIMEOUT =
+          <div class="docstring">
+  <div class="discussion">
+    
+<p>Informal convention</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div>
+        </dt>
+        <dd><pre class="code"><span class='int'>598</span></pre></dd>
+      
+        <dt id="NETWORK_CONNECT_TIMEOUT-constant" class="">NETWORK_CONNECT_TIMEOUT =
+          <div class="docstring">
+  <div class="discussion">
+    
+<p>Informal convention</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div>
+        </dt>
+        <dd><pre class="code"><span class='int'>599</span></pre></dd>
+      
+    </dl>
+  
+
+
+
+
+
+
+
+
+
+</div>
+    
+    <div id="footer">
+  Generated on Sun Mar 25 15:00:05 2012 by 
+  <a href="http://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
+  0.7.5 (ruby-1.9.3).
+</div>
+
+  </body>
+</html>
