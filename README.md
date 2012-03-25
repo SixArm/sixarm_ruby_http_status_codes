@@ -1,6 +1,7 @@
 # SixArm.com » Ruby » <br> HTTP Status Codes
 
-* Docs: <http://sixarm.com/sixarm_ruby_http_status_codes/doc>
+* Doc: <http://sixarm.com/sixarm_ruby_http_status_codes/doc>
+* Gem: <http://rubygems.org/gems/sixarm_ruby_http_status_codes>
 * Repo: <http://github.com/sixarm/sixarm_ruby_http_status_codes>
 * Email: Joel Parker Henderson, <joel@sixarm.com>
 
