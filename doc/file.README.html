@@ -58,7 +58,7 @@
 
 <ul>
 <li>Doc: <a href="http://sixarm.com/sixarm_ruby_http_status_codes/doc">http://sixarm.com/sixarm_ruby_http_status_codes/doc</a></li>
-<li>Gem: <a href="http://rubygems.org/gems/sixarm_ruby_">http://rubygems.org/gems/sixarm_ruby_</a></li>
+<li>Gem: <a href="http://rubygems.org/gems/sixarm_ruby_http_status_codes">http://rubygems.org/gems/sixarm_ruby_http_status_codes</a></li>
 <li>Repo: <a href="http://github.com/sixarm/sixarm_ruby_http_status_codes">http://github.com/sixarm/sixarm_ruby_http_status_codes</a></li>
 <li>Email: Joel Parker Henderson, <a href="mailto:joel@sixarm.com">joel@sixarm.com</a></li>
 </ul>
@@ -66,6 +66,12 @@
 <h2>Introduction</h2>
 
 <p>HTTP status codes as nicknames.</p>
+
+<p>Examples:</p>
+
+<pre class="code ruby"><code><span class='const'>Net</span><span class='op'>::</span><span class='const'>HTTP</span><span class='op'>::</span><span class='const'>Status</span><span class='op'>::</span><span class='const'>OK</span>  <span class='comment'>#=&gt; 200
+</span><span class='const'>Net</span><span class='op'>::</span><span class='const'>HTTP</span><span class='op'>::</span><span class='const'>Status</span><span class='op'>::</span><span class='const'>NOT_FOUND</span>  <span class='comment'>#=&gt; 404
+</span></code></pre>
 
 <p>For docs go to <a href="http://sixarm.com/sixarm_ruby_http_status_codes/doc">http://sixarm.com/sixarm_ruby_http_status_codes/doc</a></p>
 
@@ -80,7 +86,7 @@
 
 <p>Bundler:</p>
 
-<pre class="code ruby"><code><span class='id identifier rubyid_gem'>gem</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>sixarm_ruby_http_status_codes</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>~&gt;1.0.3</span><span class='tstring_end'>&quot;</span></span>
+<pre class="code ruby"><code><span class='id identifier rubyid_gem'>gem</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>sixarm_ruby_http_status_codes</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>~&gt;1.1.0</span><span class='tstring_end'>&quot;</span></span>
 </code></pre>
 
 <p>Require:</p>
@@ -102,13 +108,6 @@ gem sources --add http://sixarm.com
 <pre class="code ruby"><code>gem install sixarm_ruby_http_status_codes --test --trust-policy HighSecurity
 </code></pre>
 
-<h2>Examples</h2>
-
-<pre class="code ruby"><code>require &quot;sixarm_ruby_http_status_codes&quot;
-Net::HTTP::Status::OK =&gt; 200
-Net::HTTP::Status::NOT_FOUND =&gt; 404
-</code></pre>
-
 <h2>Why?</h2>
 
 <p>Why use these instead of just using a number? Because we prefer using nicknames that are easy.</p>
@@ -128,7 +127,7 @@ Net::HTTP::Status::NOT_FOUND =&gt; 404
 <h2>Changes</h2>
 
 <ul>
-<li>2012-03-14 1.0.3 Update docs, tests</li>
+<li>2012-03-24 1.1.0 Upgrade for Ruby 1.9.3, minitest/spec, and improved docs.</li>
 <li>2011-10-22 1.0.3 Add IETF draft-nottingham-http-new-status-02</li>
 <li>2011-10-06 1.0.2 Publish</li>
 </ul>
@@ -165,7 +164,7 @@ authors, etc. and these do take precedence over the SixArm license.</p>
 </div></div>
     
     <div id="footer">
-  Generated on Sun Mar 25 15:00:05 2012 by 
+  Generated on Sun Mar 25 16:49:57 2012 by 
   <a href="http://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
   0.7.5 (ruby-1.9.3).
 </div>

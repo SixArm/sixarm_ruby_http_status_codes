@@ -1,5 +1,8 @@
 # SixArm.com » Ruby » <br> HTTP Status Codes
 
+[![Code Climate](https://codeclimate.com/github/SixArm/sixarm_ruby_http_status_codes.png)](https://codeclimate.com/github/SixArm/sixarm_ruby_http_status_codes)
+[![Build Status](https://travis-ci.org/SixArm/sixarm_ruby_http_status_codes.png)](https://travis-ci.org/SixArm/sixarm_ruby_http_status_codes)
+
 * Doc: <http://sixarm.com/sixarm_ruby_http_status_codes/doc>
 * Gem: <http://rubygems.org/gems/sixarm_ruby_http_status_codes>
 * Repo: <http://github.com/sixarm/sixarm_ruby_http_status_codes>
@@ -67,6 +70,7 @@ To see similar codes:
 
 ## Changes
 
+* 2013-08-18 1.1.0 Updates for Ruby 2, Code Climate, Travis CI
 * 2012-03-24 1.1.0 Upgrade for Ruby 1.9.3, minitest/spec, and improved docs.
 * 2011-10-22 1.0.3 Add IETF draft-nottingham-http-new-status-02
 * 2011-10-06 1.0.2 Publish
