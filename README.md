@@ -1,4 +1,4 @@
-# SixArm.com » Ruby » <br> HTTP Status Codes
+# Ruby » <br> HTTP Status Codes
 
 [![Code Climate](https://codeclimate.com/github/SixArm/sixarm_ruby_http_status_codes.png)](https://codeclimate.com/github/SixArm/sixarm_ruby_http_status_codes)
 [![Build Status](https://travis-ci.org/SixArm/sixarm_ruby_http_status_codes.png)](https://travis-ci.org/SixArm/sixarm_ruby_http_status_codes)
