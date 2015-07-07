@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-require 'minitest/autorun'
+require "minitest/autorun"
 Minitest::Test ||= MiniTest::Unit::TestCase
-require 'simplecov'
+require "simplecov"
 SimpleCov.start
-require 'sixarm_ruby_http_status_codes'
+require "sixarm_ruby_http_status_codes"
 
 describe Net::HTTP::Status do
 
