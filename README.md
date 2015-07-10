@@ -1,12 +1,19 @@
 # Ruby » <br> HTTP Status Codes
 
+<!--HEADER-OPEN-->
+
 [![Code Climate](https://codeclimate.com/github/SixArm/sixarm_ruby_http_status_codes.png)](https://codeclimate.com/github/SixArm/sixarm_ruby_http_status_codes)
 [![Build Status](https://travis-ci.org/SixArm/sixarm_ruby_http_status_codes.png)](https://travis-ci.org/SixArm/sixarm_ruby_http_status_codes)
 
+* Git: <https://github.com/sixarm/sixarm_ruby_http_status_codes>
 * Doc: <http://sixarm.com/sixarm_ruby_http_status_codes/doc>
-* Gem: <http://rubygems.org/gems/sixarm_ruby_http_status_codes>
-* Repo: <http://github.com/sixarm/sixarm_ruby_http_status_codes>
-* Email: Joel Parker Henderson, <joel@sixarm.com>
+* Gem: <https://rubygems.org/gems/sixarm_ruby_http_status_codes>
+* Contact: Joel Parker Henderson, <joel@sixarm.com>
+* Changes: See CHANGES.md file.
+* License: See LICENSE.md file.
+* Helping: See CONTRIBUTING.md file.
+
+<!--HEADER-SHUT-->
 
 
 ## Introduction
@@ -24,32 +31,29 @@ For docs go to <http://sixarm.com/sixarm_ruby_http_status_codes/doc>
 Want to help? We're happy to get pull requests.
 
 
-## Install quickstart
+<!--INSTALL-OPEN-->
 
-Install:
+## Install
 
-    gem install sixarm_ruby_http_status_codes
+To install using a Gemfile, add this:
 
-Bundler:
+    gem "sixarm_ruby_http_status_codes", ">= 1.1.1, < 2"
 
-    gem "sixarm_ruby_http_status_codes", "~>1.1.0"
+To install using the command line, run this:
 
-Require:
+    gem install sixarm_ruby_http_status_codes -v ">= 1.1.1, < 2"
+
+To install using the command with high security, run this:
+
+    wget http://sixarm.com/sixarm.pem
+    gem cert --add sixarm.pem && gem sources --add http://sixarm.com
+    gem install sixarm_ruby_http_status_codes -v ">= 1.1.1, < 2" --trust-policy HighSecurity
+
+To require the gem in your code:
 
     require "sixarm_ruby_http_status_codes"
 
-
-## Install with security (optional)
-
-To enable high security for all our gems:
-
-    wget http://sixarm.com/sixarm.pem
-    gem cert --add sixarm.pem
-    gem sources --add http://sixarm.com
-
-To install with high security:
-
-    gem install sixarm_ruby_http_status_codes --trust-policy HighSecurity
+<!--INSTALL-SHUT-->
 
 
 ## Why?
