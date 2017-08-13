@@ -3,7 +3,7 @@
 Gem::Specification.new do |s|
 
   s.name              = "sixarm_ruby_http_status_codes"
-  s.summary           = "SixArm.com » Ruby » HTTP Status Codes"
+  s.summary           = "SixArm.com → Ruby → HTTP Status Codes"
   s.description       = "HTTP Status Codes as constants, such as Net::HTTP::Status::OK = 200"
   s.version           = "1.1.1"
 
