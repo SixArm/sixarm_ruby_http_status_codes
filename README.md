@@ -1,6 +1,6 @@
 # SixArm.com → Ruby → <br> HTTP Status Codes
 
-<!--HEADER-OPEN-->
+<!--header-open-->
 
 [![Gem Version](https://badge.fury.io/rb/sixarm_ruby_http_status_codes.svg)](http://badge.fury.io/rb/sixarm_ruby_http_status_codes)
 [![Build Status](https://travis-ci.org/SixArm/sixarm_ruby_http_status_codes.png)](https://travis-ci.org/SixArm/sixarm_ruby_http_status_codes)
@@ -13,7 +13,7 @@
 * Contact: Joel Parker Henderson, <joel@sixarm.com>
 * Project: [Changes](CHANGES.md), [License](LICENSE.md), [Contributing](CONTRIBUTING.md).
 
-<!--HEADER-SHUT-->
+<!--header-shut-->
 
 
 ## Introduction
@@ -31,7 +31,7 @@ For docs go to <http://sixarm.com/sixarm_ruby_http_status_codes/doc>
 Want to help? We're happy to get pull requests.
 
 
-<!--INSTALL-OPEN-->
+<!--install-opent-->
 
 ## Install
 
@@ -51,7 +51,7 @@ To require the gem in your code:
 
     require 'sixarm_ruby_http_status_codes'
 
-<!--INSTALL-SHUT-->
+<!--install-shut-->
 
 
 ## Why?
