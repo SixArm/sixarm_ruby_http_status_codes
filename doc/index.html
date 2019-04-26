@@ -1,23 +1,24 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!DOCTYPE html>
+<html>
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>
   File: README
   
-    &mdash; Documentation by YARD 0.7.5
+    &mdash; Documentation by YARD 0.9.19
   
 </title>
 
-  <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" charset="utf-8" />
+  <link rel="stylesheet" href="css/style.css" type="text/css" charset="utf-8" />
 
-  <link rel="stylesheet" href="css/common.css" type="text/css" media="screen" charset="utf-8" />
+  <link rel="stylesheet" href="css/common.css" type="text/css" charset="utf-8" />
 
 <script type="text/javascript" charset="utf-8">
+  pathId = "README";
   relpath = '';
-  if (relpath != '') relpath += '/';
 </script>
+
 
   <script type="text/javascript" charset="utf-8" src="js/jquery.js"></script>
 
@@ -26,148 +27,113 @@
 
   </head>
   <body>
-    <script type="text/javascript" charset="utf-8">
-      if (window.top.frames.main) document.body.className = 'frames';
-    </script>
-    
-    <div id="header">
-      <div id="menu">
+    <div class="nav_wrap">
+      <iframe id="nav" src="class_list.html?1"></iframe>
+      <div id="resizer"></div>
+    </div>
+
+    <div id="main" tabindex="-1">
+      <div id="header">
+        <div id="menu">
   
-    <a href="_index.html" title="Index">Index</a> &raquo; 
+    <a href="_index.html">Index</a> &raquo; 
     <span class="title">File: README</span>
   
-  
-  <div class="noframes"><span class="title">(</span><a href="." target="_top">no frames</a><span class="title">)</span></div>
 </div>
 
-      <div id="search">
+        <div id="search">
   
-    <a id="class_list_link" href="#">Class List</a>
-  
-    <a id="method_list_link" href="#">Method List</a>
-  
-    <a id="file_list_link" href="#">File List</a>
+    <a class="full_list_link" id="class_list_link"
+        href="class_list.html">
+
+        <svg width="24" height="24">
+          <rect x="0" y="4" width="24" height="4" rx="1" ry="1"></rect>
+          <rect x="0" y="12" width="24" height="4" rx="1" ry="1"></rect>
+          <rect x="0" y="20" width="24" height="4" rx="1" ry="1"></rect>
+        </svg>
+    </a>
   
 </div>
-      <div class="clear"></div>
-    </div>
-    
-    <iframe id="search_frame"></iframe>
-    
-    <div id="content"><div id='filecontents'><h1>SixArm.com » Ruby » <br> HTTP Status Codes</h1>
+        <div class="clear"></div>
+      </div>
 
-<ul>
-<li>Doc: <a href="http://sixarm.com/sixarm_ruby_http_status_codes/doc">http://sixarm.com/sixarm_ruby_http_status_codes/doc</a></li>
-<li>Gem: <a href="http://rubygems.org/gems/sixarm_ruby_http_status_codes">http://rubygems.org/gems/sixarm_ruby_http_status_codes</a></li>
-<li>Repo: <a href="http://github.com/sixarm/sixarm_ruby_http_status_codes">http://github.com/sixarm/sixarm_ruby_http_status_codes</a></li>
-<li>Email: Joel Parker Henderson, <a href="mailto:joel@sixarm.com">joel@sixarm.com</a></li>
-</ul>
-
-<h2>Introduction</h2>
+      <div id="content"><div id='filecontents'>
+<h1 id="label-SixArm.com+-E2-86-92+Ruby+-E2-86-92++HTTP+Status+Codes">SixArm.com → Ruby → <br> HTTP Status Codes</h1>
+<!--header-open-->
+<p><a href="http://badge.fury.io/rb/sixarm_ruby_http_status_codes"><img src="https://badge.fury.io/rb/sixarm_ruby_http_status_codes.svg"></a> <a href="https://travis-ci.org/SixArm/sixarm_ruby_http_status_codes"><img src="https://travis-ci.org/SixArm/sixarm_ruby_http_status_codes.png"></a> <a href="https://codeclimate.com/github/SixArm/sixarm_ruby_http_status_codes/maintainability"><img src="https://api.codeclimate.com/v1/badges/239be14dcdca0101c285/maintainability"></a></p>
+<ul><li>
+<p>Git: <a href="https://github.com/SixArm/sixarm_ruby_http_status_codes">github.com/SixArm/sixarm_ruby_http_status_codes</a></p>
+</li><li>
+<p>Doc: <a href="http://sixarm.com/sixarm_ruby_http_status_codes/doc">sixarm.com/sixarm_ruby_http_status_codes/doc</a></p>
+</li><li>
+<p>Gem: <a href="https://rubygems.org/gems/sixarm_ruby_http_status_codes">rubygems.org/gems/sixarm_ruby_http_status_codes</a></p>
+</li><li>
+<p>Contact: Joel Parker Henderson, <a href="mailto:joel@sixarm.com">joel@sixarm.com</a></p>
+</li><li>
+<p>Project: <a href="CHANGES.md">changes</a>, <a href="LICENSE.md">license</a>, <a href="CONTRIBUTING.md">contributing</a>.</p>
+</li></ul>
+<!--header-shut-->
+<h2 id="label-Introduction">Introduction</h2>
 
 <p>HTTP status codes as nicknames.</p>
 
 <p>Examples:</p>
 
-<pre class="code ruby"><code><span class='const'>Net</span><span class='op'>::</span><span class='const'>HTTP</span><span class='op'>::</span><span class='const'>Status</span><span class='op'>::</span><span class='const'>OK</span>  <span class='comment'>#=&gt; 200
-</span><span class='const'>Net</span><span class='op'>::</span><span class='const'>HTTP</span><span class='op'>::</span><span class='const'>Status</span><span class='op'>::</span><span class='const'>NOT_FOUND</span>  <span class='comment'>#=&gt; 404
+<pre class="code ruby"><code class="ruby"><span class='const'><span class='object_link'><a href="Net.html" title="Net (module)">Net</a></span></span><span class='op'>::</span><span class='const'><span class='object_link'><a href="Net/HTTP.html" title="Net::HTTP (module)">HTTP</a></span></span><span class='op'>::</span><span class='const'><span class='object_link'><a href="Net/HTTP/Status.html" title="Net::HTTP::Status (module)">Status</a></span></span><span class='op'>::</span><span class='const'><span class='object_link'><a href="Net/HTTP/Status.html#OK-constant" title="Net::HTTP::Status::OK (constant)">OK</a></span></span>  <span class='comment'>#=&gt; 200
+</span><span class='const'><span class='object_link'><a href="Net.html" title="Net (module)">Net</a></span></span><span class='op'>::</span><span class='const'><span class='object_link'><a href="Net/HTTP.html" title="Net::HTTP (module)">HTTP</a></span></span><span class='op'>::</span><span class='const'><span class='object_link'><a href="Net/HTTP/Status.html" title="Net::HTTP::Status (module)">Status</a></span></span><span class='op'>::</span><span class='const'><span class='object_link'><a href="Net/HTTP/Status.html#NOT_FOUND-constant" title="Net::HTTP::Status::NOT_FOUND (constant)">NOT_FOUND</a></span></span>  <span class='comment'>#=&gt; 404
 </span></code></pre>
 
-<p>For docs go to <a href="http://sixarm.com/sixarm_ruby_http_status_codes/doc">http://sixarm.com/sixarm_ruby_http_status_codes/doc</a></p>
+<p>For docs go to <a href="http://sixarm.com/sixarm_ruby_http_status_codes/doc">sixarm.com/sixarm_ruby_http_status_codes/doc</a></p>
 
 <p>Want to help? We&#39;re happy to get pull requests.</p>
+<!--install-open-->
+<h2 id="label-Install">Install</h2>
 
-<h2>Install quickstart</h2>
+<h3 id="label-Gem">Gem</h3>
 
-<p>Install:</p>
+<p>To install this gem in your shell or terminal:</p>
 
-<pre class="code ruby"><code><span class='id identifier rubyid_gem'>gem</span> <span class='id identifier rubyid_install'>install</span> <span class='id identifier rubyid_sixarm_ruby_http_status_codes'>sixarm_ruby_http_status_codes</span>
+<pre class="code ruby"><code class="ruby"><span class='id identifier rubyid_gem'>gem</span> <span class='id identifier rubyid_install'>install</span> <span class='id identifier rubyid_sixarm_ruby_http_status_codes'>sixarm_ruby_http_status_codes</span>
 </code></pre>
 
-<p>Bundler:</p>
+<h3 id="label-Gemfile">Gemfile</h3>
 
-<pre class="code ruby"><code><span class='id identifier rubyid_gem'>gem</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>sixarm_ruby_http_status_codes</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>~&gt;1.1.0</span><span class='tstring_end'>&quot;</span></span>
+<p>To add this gem to your Gemfile:</p>
+
+<pre class="code ruby"><code class="ruby"><span class='id identifier rubyid_gem'>gem</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>sixarm_ruby_http_status_codes</span><span class='tstring_end'>&#39;</span></span>
 </code></pre>
 
-<p>Require:</p>
+<h3 id="label-Require">Require</h3>
 
-<pre class="code ruby"><code><span class='id identifier rubyid_require'>require</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>sixarm_ruby_http_status_codes</span><span class='tstring_end'>&quot;</span></span>
+<p>To require the gem in your code:</p>
+
+<pre class="code ruby"><code class="ruby"><span class='id identifier rubyid_require'>require</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>sixarm_ruby_http_status_codes</span><span class='tstring_end'>&#39;</span></span>
 </code></pre>
-
-<h2>Install with security (optional)</h2>
-
-<p>To enable high security for all our gems:</p>
-
-<pre class="code ruby"><code>wget http://sixarm.com/sixarm.pem
-gem cert --add sixarm.pem
-gem sources --add http://sixarm.com
-</code></pre>
-
-<p>To install with high security:</p>
-
-<pre class="code ruby"><code>gem install sixarm_ruby_http_status_codes --test --trust-policy HighSecurity
-</code></pre>
-
-<h2>Why?</h2>
+<!--install-shut-->
+<h2 id="label-Why-3F">Why?</h2>
 
 <p>Why use these instead of just using a number? Because we prefer using nicknames that are easy.</p>
 
 <p>Why use these instead of the codes that already exist in other libraries, like Ruby Net::HTTP, Rack Utils, and Rails ActionPack? Because we want WebDAV codes (e.g. 403 means a resource is locked) and informal convention codes (e.g. 599 means a network connect timeout).</p>
 
-<h2>See Also</h2>
+<h2 id="label-See+Also">See Also</h2>
 
 <p>To see similar codes:</p>
-
-<ul>
-<li>Ruby Net HTTP library</li>
-<li>Rack Utils</li>
-<li>Rails ActionPack</li>
-</ul>
-
-<h2>Changes</h2>
-
-<ul>
-<li>2012-03-24 1.1.0 Upgrade for Ruby 1.9.3, minitest/spec, and improved docs.</li>
-<li>2011-10-22 1.0.3 Add IETF draft-nottingham-http-new-status-02</li>
-<li>2011-10-06 1.0.2 Publish</li>
-</ul>
-
-<h2>License</h2>
-
-<p>You may choose any of these open source licenses:</p>
-
-<ul>
-<li>Apache License</li>
-<li>BSD License</li>
-<li>CreativeCommons License, Non-commercial Share Alike</li>
-<li>GNU General Public License Version 2 (GPL 2)</li>
-<li>GNU Lesser General Public License (LGPL)</li>
-<li>MIT License</li>
-<li>Perl Artistic License</li>
-<li>Ruby License</li>
-</ul>
-
-<p>The software is provided &quot;as is&quot;, without warranty of any kind, 
-express or implied, including but not limited to the warranties of 
-merchantability, fitness for a particular purpose and noninfringement. </p>
-
-<p>In no event shall the authors or copyright holders be liable for any 
-claim, damages or other liability, whether in an action of contract, 
-tort or otherwise, arising from, out of or in connection with the 
-software or the use or other dealings in the software.</p>
-
-<p>This license is for the included software that is created by SixArm;
-some of the included software may have its own licenses, copyrights, 
-authors, etc. and these do take precedence over the SixArm license.</p>
-
-<p>Copyright (c) 2005-2013 Joel Parker Henderson</p>
+<ul><li>
+<p>Ruby Net HTTP library</p>
+</li><li>
+<p>Rack Utils</p>
+</li><li>
+<p>Rails ActionPack</p>
+</li></ul>
 </div></div>
-    
-    <div id="footer">
-  Generated on Sun Mar 25 16:49:57 2012 by 
+
+      <div id="footer">
+  Generated on Thu Apr 25 22:30:16 2019 by
   <a href="http://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
-  0.7.5 (ruby-1.9.3).
+  0.9.19 (ruby-2.6.3).
 </div>
 
+    </div>
   </body>
 </html>
